@@ -46,10 +46,47 @@ class DoublyLinkedList {
     }
   }
   shift() {
-
+    if(!this.head && !this.tail) return "There is nothing to remove.";
+    if(this.head) {
+      const next = this.head.next;
+      if(next) next.prev = null;
+      this.head = next;
+      this.length -= 1;
+    }
   }
-  unshift() {
-    
+  unshift(val: number) {
+    const newNode = new DLLNode(val);
+    if(!this.head && !this.tail) {
+      this.head = newNode;
+      this.tail = newNode;
+    }
+    if(this.head) {
+      this.head.prev = newNode; //set current head to newNode as previous
+      newNode.next = this.head; //set the newNodes' next to the current head
+      this.head = newNode; //reassign head to be the new node
+    }
+  }
+  get(idx: number) {
+    const mid = Math.floor(this.length / 2);
+    let current = this.head;
+    if(idx < mid) {
+      //traverse the list forward
+      while((idx) > 0) {
+        if(this.head){
+          current = this.head.next;
+        }
+        idx -= 1;
+      }
+    } else {
+      //traverse the list in reverse
+      while((idx) > mid) {
+        if(this.tail){
+          current = this.tail.next;
+        }
+        idx -= 1;
+      }
+    }
+    return current ? current.val : false;
   }
 }
 

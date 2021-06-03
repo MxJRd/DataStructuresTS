@@ -33,7 +33,10 @@ import { newDoublyLinkedList } from './DoublyLinkedList';
 newDoublyLinkedList.push(15);
 newDoublyLinkedList.push(25);
 newDoublyLinkedList.push(35);
-newDoublyLinkedList.pop();
+newDoublyLinkedList.unshift(45);
+console.log(newDoublyLinkedList.get(3));
+// newDoublyLinkedList.pop();
+// newDoublyLinkedList.shift();
 console.log(newDoublyLinkedList);
 /*Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List */
 /*Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List */
