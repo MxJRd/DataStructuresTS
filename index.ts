@@ -1,6 +1,6 @@
 import { newSinglyLinkedList } from './SinglyLinkedList';
 import { newDoublyLinkedList } from './DoublyLinkedList';
-
+import { newBST } from './BST';
 // newSinglyLinkedList.push(5);
 // newSinglyLinkedList.push(15);
 // newSinglyLinkedList.push(25);
@@ -30,14 +30,25 @@ import { newDoublyLinkedList } from './DoublyLinkedList';
 /*Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List */
 /*Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List */
 /*Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List */
-newDoublyLinkedList.push(15);
-newDoublyLinkedList.push(25);
-newDoublyLinkedList.push(35);
-newDoublyLinkedList.unshift(45);
-console.log(newDoublyLinkedList.get(3));
+// newDoublyLinkedList.push(15);
+// newDoublyLinkedList.push(25);
+// newDoublyLinkedList.push(35);
+// newDoublyLinkedList.unshift(45);
+// console.log(newDoublyLinkedList.get(3));
 // newDoublyLinkedList.pop();
 // newDoublyLinkedList.shift();
-console.log(newDoublyLinkedList);
+// console.log(newDoublyLinkedList);
 /*Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List */
 /*Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List */
 /*Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List Doubly Linked List */
+
+
+/*BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST */
+/*BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST */
+/*BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST */
+
+console.log(newBST.contains(10));
+
+/*BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST */
+/*BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST */
+/*BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST */

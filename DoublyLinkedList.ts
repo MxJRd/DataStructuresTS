@@ -88,6 +88,9 @@ class DoublyLinkedList {
     }
     return current ? current.val : false;
   }
+  set(idx: number, val: number) {
+    
+  }
 }
 
 const initializationNode = new DLLNode(10);
