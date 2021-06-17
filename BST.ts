@@ -16,7 +16,7 @@ class BST {
   constructor(root: BSTNode | null) {
     this.root = root;
   }
-  add(val: number) {
+  insert(val: number) {
     if(!this.root) return this.root = new BSTNode(val);
     let currentNode = this.root;
     function recurse(current = currentNode): BSTNode | undefined{
@@ -41,7 +41,12 @@ class BST {
     return recurse();
   }
   remove(val: number) {
+    let currentNode = this.root;
+    function recurse(current = currentNode) {
+      if(current && val < current.val) {
 
+      }
+    }
   }
   contains(val: number) {
     let currentNode = this.root;

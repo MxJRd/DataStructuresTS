@@ -147,5 +147,6 @@ const initializationNode = new Node(2);
 const newSinglyLinkedList = new SinglyLinkedList(initializationNode, initializationNode);
 
 export {
-  newSinglyLinkedList
+  newSinglyLinkedList,
+  Node
 }

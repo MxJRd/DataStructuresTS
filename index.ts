@@ -1,5 +1,6 @@
 import { newSinglyLinkedList } from './SinglyLinkedList';
 import { newDoublyLinkedList } from './DoublyLinkedList';
+import { newQueue } from './Queue';
 import { newBST } from './BST';
 // newSinglyLinkedList.push(5);
 // newSinglyLinkedList.push(15);
@@ -47,8 +48,34 @@ import { newBST } from './BST';
 /*BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST */
 /*BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST */
 
-console.log(newBST.contains(10));
+// newBST.insert(30)
+// newBST.insert(9)
+// newBST.insert(5)
+// newBST.insert(7)
+// newBST.insert(22)
+// newBST.insert(15)
+// console.log(newBST)
 
+
+
+// newBST.insert(3)
+// console.log(JSON.stringify(newBST))
 /*BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST */
 /*BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST */
 /*BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST */
+
+/*Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue */
+/*Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue */
+/*Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue */
+
+newQueue.enqueue(5)
+newQueue.enqueue(10)
+newQueue.enqueue(15)
+newQueue.enqueue(20)
+newQueue.enqueue(25)
+newQueue.dequeue();
+console.log(newQueue)
+
+/*Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue */
+/*Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue */
+/*Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue */
