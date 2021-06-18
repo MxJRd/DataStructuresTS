@@ -1,5 +1,4 @@
 import { Node } from './SinglyLinkedList';
-
 /*
 class Node {
   val: number;
@@ -47,5 +46,6 @@ class Queue {
 const newQueue = new Queue();
 
 export {
-  newQueue
+  newQueue,
+  Queue
 }

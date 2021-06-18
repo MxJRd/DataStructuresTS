@@ -1,3 +1,5 @@
+import { Queue } from './Queue';
+
 class BSTNode {
   val: number;
   left: BSTNode | null;
@@ -64,21 +66,40 @@ class BST {
     }
     return recurse();
   }
-  inOrder() {
+  preOrder(tree: BSTNode) { //DFS
+    let currentNode = tree;
+  }
+  inOrder() { //DFS
 
   }
-  preOrder() {
+
+  postOrder() { //DFS
 
   }
-  postOrder() {
-
+  bfs(tree: BSTNode, val: number) {
+    const myQueue: Array<BSTNode> = [],
+          visited: Array<BSTNode | number> = [];
+    myQueue.unshift(tree);
+    // console.log(myQueue);
+    while(myQueue.length) {
+      let node = myQueue.shift(); //turns into the shifted node
+      if(node && val === node.val) return true;
+      if(node) visited.push(node.val);
+      if(node && node.left) {
+        myQueue.push(node.left);
+      }
+      if(node && node.right){
+        myQueue.push(node.right);
+      }
+    }
+    return visited;
   }
 }
 
 const newNode = new BSTNode(10);
 const newBST = new BST(newNode);
-// BST()
 
 export {
-  newBST
+  newBST,
+  newNode
 }

@@ -1,7 +1,7 @@
 import { newSinglyLinkedList } from './SinglyLinkedList';
 import { newDoublyLinkedList } from './DoublyLinkedList';
 import { newQueue } from './Queue';
-import { newBST } from './BST';
+import { newBST, newNode } from './BST';
 // newSinglyLinkedList.push(5);
 // newSinglyLinkedList.push(15);
 // newSinglyLinkedList.push(25);
@@ -48,13 +48,16 @@ import { newBST } from './BST';
 /*BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST */
 /*BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST BST */
 
-// newBST.insert(30)
-// newBST.insert(9)
-// newBST.insert(5)
-// newBST.insert(7)
-// newBST.insert(22)
-// newBST.insert(15)
-// console.log(newBST)
+newBST.insert(30)
+
+
+newBST.insert(22)
+newBST.insert(15)
+newBST.insert(9)
+newBST.insert(5)
+newBST.insert(7)
+console.log(newBST.bfs(newNode, 70));
+console.log(newBST)
 
 
 
@@ -68,13 +71,13 @@ import { newBST } from './BST';
 /*Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue */
 /*Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue */
 
-newQueue.enqueue(5)
-newQueue.enqueue(10)
-newQueue.enqueue(15)
-newQueue.enqueue(20)
-newQueue.enqueue(25)
-newQueue.dequeue();
-console.log(newQueue)
+// newQueue.enqueue(5)
+// newQueue.enqueue(10)
+// newQueue.enqueue(15)
+// newQueue.enqueue(20)
+// newQueue.enqueue(25)
+// newQueue.dequeue();
+// console.log(newQueue)
 
 /*Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue */
 /*Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue Queue */
